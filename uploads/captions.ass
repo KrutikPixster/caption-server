@@ -1,0 +1,61 @@
+
+[Script Info]
+Title: Active Word Highlighting
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Lilita One,36,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: Highlight,Lilita One,36,&H00FF00,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:02.20,00:00:02.67,Default,,0,0,0,,{\1c&H00FF00\b1}Emo,{\b0\1c&HFFFFFF&} close your eyes.
+Dialogue: 0,00:00:02.67,00:00:03.13,Default,,0,0,0,,Emo, {\1c&H00FF00\b1}close{\b0\1c&HFFFFFF&} your eyes.
+Dialogue: 0,00:00:03.14,00:00:03.61,Default,,0,0,0,,Emo, close {\1c&H00FF00\b1}your{\b0\1c&HFFFFFF&} eyes.
+Dialogue: 0,00:00:03.61,00:00:04.08,Default,,0,0,0,,Emo, close your {\1c&H00FF00\b1}eyes.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:04.83,00:00:05.33,Default,,0,0,0,,{\1c&H00FF00\b1}Why?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:05.33,00:00:05.83,Default,,0,0,0,,{\1c&H00FF00\b1}Now!{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:06.58,00:00:07.08,Default,,0,0,0,,{\1c&H00FF00\b1}Okay.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:07.50,00:00:08.00,Default,,0,0,0,,{\1c&H00FF00\b1}Good.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:09.82,00:00:10.06,Default,,0,0,0,,{\1c&H00FF00\b1}What{\b0\1c&HFFFFFF&} do you see at your left side, Emo?
+Dialogue: 0,00:00:10.06,00:00:10.30,Default,,0,0,0,,What {\1c&H00FF00\b1}do{\b0\1c&HFFFFFF&} you see at your left side, Emo?
+Dialogue: 0,00:00:10.30,00:00:10.54,Default,,0,0,0,,What do {\1c&H00FF00\b1}you{\b0\1c&HFFFFFF&} see at your left side, Emo?
+Dialogue: 0,00:00:10.54,00:00:10.78,Default,,0,0,0,,What do you {\1c&H00FF00\b1}see{\b0\1c&HFFFFFF&} at your left side, Emo?
+Dialogue: 0,00:00:10.78,00:00:11.03,Default,,0,0,0,,What do you see {\1c&H00FF00\b1}at{\b0\1c&HFFFFFF&} your left side, Emo?
+Dialogue: 0,00:00:11.03,00:00:11.27,Default,,0,0,0,,What do you see at {\1c&H00FF00\b1}your{\b0\1c&HFFFFFF&} left side, Emo?
+Dialogue: 0,00:00:11.27,00:00:11.51,Default,,0,0,0,,What do you see at your {\1c&H00FF00\b1}left{\b0\1c&HFFFFFF&} side, Emo?
+Dialogue: 0,00:00:11.51,00:00:11.75,Default,,0,0,0,,What do you see at your left {\1c&H00FF00\b1}side,{\b0\1c&HFFFFFF&} Emo?
+Dialogue: 0,00:00:11.75,00:00:12.00,Default,,0,0,0,,What do you see at your left side, {\1c&H00FF00\b1}Emo?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:12.08,00:00:12.58,Default,,0,0,0,,{\1c&H00FF00\b1}Well...{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:15.14,00:00:15.64,Default,,0,0,0,,{\1c&H00FF00\b1}Nothing.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:15.80,00:00:16.30,Default,,0,0,0,,{\1c&H00FF00\b1}Really?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:17.35,00:00:17.66,Default,,0,0,0,,{\1c&H00FF00\b1}No,{\b0\1c&HFFFFFF&} nothing at all.
+Dialogue: 0,00:00:17.66,00:00:17.96,Default,,0,0,0,,No, {\1c&H00FF00\b1}nothing{\b0\1c&HFFFFFF&} at all.
+Dialogue: 0,00:00:17.96,00:00:18.27,Default,,0,0,0,,No, nothing {\1c&H00FF00\b1}at{\b0\1c&HFFFFFF&} all.
+Dialogue: 0,00:00:18.27,00:00:18.57,Default,,0,0,0,,No, nothing at {\1c&H00FF00\b1}all.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:18.57,00:00:19.07,Default,,0,0,0,,{\1c&H00FF00\b1}Really?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:19.23,00:00:19.69,Default,,0,0,0,,{\1c&H00FF00\b1}And...{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:19.69,00:00:19.92,Default,,0,0,0,,{\1c&H00FF00\b1}And{\b0\1c&HFFFFFF&} at your right?
+Dialogue: 0,00:00:19.92,00:00:20.15,Default,,0,0,0,,And {\1c&H00FF00\b1}at{\b0\1c&HFFFFFF&} your right?
+Dialogue: 0,00:00:20.15,00:00:20.38,Default,,0,0,0,,And at {\1c&H00FF00\b1}your{\b0\1c&HFFFFFF&} right?
+Dialogue: 0,00:00:20.38,00:00:20.61,Default,,0,0,0,,And at your {\1c&H00FF00\b1}right?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:20.61,00:00:20.84,Default,,0,0,0,,{\1c&H00FF00\b1}What{\b0\1c&HFFFFFF&} do you see at your right side, Emo?
+Dialogue: 0,00:00:20.84,00:00:21.07,Default,,0,0,0,,What {\1c&H00FF00\b1}do{\b0\1c&HFFFFFF&} you see at your right side, Emo?
+Dialogue: 0,00:00:21.07,00:00:21.29,Default,,0,0,0,,What do {\1c&H00FF00\b1}you{\b0\1c&HFFFFFF&} see at your right side, Emo?
+Dialogue: 0,00:00:21.29,00:00:21.52,Default,,0,0,0,,What do you {\1c&H00FF00\b1}see{\b0\1c&HFFFFFF&} at your right side, Emo?
+Dialogue: 0,00:00:21.52,00:00:21.75,Default,,0,0,0,,What do you see {\1c&H00FF00\b1}at{\b0\1c&HFFFFFF&} your right side, Emo?
+Dialogue: 0,00:00:21.75,00:00:21.97,Default,,0,0,0,,What do you see at {\1c&H00FF00\b1}your{\b0\1c&HFFFFFF&} right side, Emo?
+Dialogue: 0,00:00:21.97,00:00:22.20,Default,,0,0,0,,What do you see at your {\1c&H00FF00\b1}right{\b0\1c&HFFFFFF&} side, Emo?
+Dialogue: 0,00:00:22.20,00:00:22.43,Default,,0,0,0,,What do you see at your right {\1c&H00FF00\b1}side,{\b0\1c&HFFFFFF&} Emo?
+Dialogue: 0,00:00:22.43,00:00:22.66,Default,,0,0,0,,What do you see at your right side, {\1c&H00FF00\b1}Emo?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:24.51,00:00:24.87,Default,,0,0,0,,{\1c&H00FF00\b1}The{\b0\1c&HFFFFFF&} same, Prue?
+Dialogue: 0,00:00:24.87,00:00:25.23,Default,,0,0,0,,The {\1c&H00FF00\b1}same,{\b0\1c&HFFFFFF&} Prue?
+Dialogue: 0,00:00:25.23,00:00:25.59,Default,,0,0,0,,The same, {\1c&H00FF00\b1}Prue?{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:26.57,00:00:26.96,Default,,0,0,0,,{\1c&H00FF00\b1}Exactly{\b0\1c&HFFFFFF&} the same.
+Dialogue: 0,00:00:26.96,00:00:27.35,Default,,0,0,0,,Exactly {\1c&H00FF00\b1}the{\b0\1c&HFFFFFF&} same.
+Dialogue: 0,00:00:27.35,00:00:27.73,Default,,0,0,0,,Exactly the {\1c&H00FF00\b1}same.{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:27.82,00:00:28.32,Default,,0,0,0,,{\1c&H00FF00\b1}Nothing!{\b0\1c&HFFFFFF&}
+Dialogue: 0,00:00:29.38,00:00:29.88,Default,,0,0,0,,{\1c&H00FF00\b1}Great.{\b0\1c&HFFFFFF&}
